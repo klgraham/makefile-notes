@@ -1,5 +1,6 @@
 CC=gcc # compiler
-CFLAGS=-I. # flags to pass to compiler
+INCLUDE = include
+CFLAGS=-I$(INCLUDE) # flags to pass to compiler
 DEPS = factorial.h # list of headers the .c files depend on
 OBJ = main.o factorial.o # list of object files
 
