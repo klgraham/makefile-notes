@@ -9,3 +9,5 @@ OBJ = main.o factorial.o # list of object files
 factorial.out: $(OBJ)
 	$(CC) -o $@ $^ $(CFLAGS)
 
+clean:
+	rm *.o factorial.out
