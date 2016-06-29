@@ -1,3 +1,3 @@
-all:
-	gcc main.c factorial.c -o factorial.out -I.
+all: main.c factorial.c
+	gcc -o factorial.out main.c factorial.c -I.
 
